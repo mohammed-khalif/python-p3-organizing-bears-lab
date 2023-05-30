@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-
 import sqlite3
 
 from sql_queries import (
@@ -9,6 +8,7 @@ from sql_queries import (
     select_oldest_bear_and_returns_name_and_age,
     select_youngest_bear_and_returns_name_and_age,
 )
+
 
 connection = sqlite3.connect(":memory:")
 
